@@ -1,0 +1,464 @@
+/* Couleurs personnalisées */
+.bg-primary-custom {
+    background-color: #0056b3; /* Bleu personnalisé */
+}
+
+.bg-secondary-custom {
+    background-color: #ffd700; /* Jaune personnalisé */
+}
+
+.text-primary-custom {
+    color: #0056b3; /* Bleu personnalisé */
+}
+
+.text-secondary-custom {
+    color: #ffd700; /* Jaune personnalisé */
+}
+
+/* Style du logo et des textes dans la navbar */
+.navbar-brand {
+    color: #ffd700; /* Jaune personnalisé pour le texte du logo */
+}
+
+.navbar-brand img {
+    filter: invert(1) brightness(0.9); /* Ajuste la couleur du logo pour contraster avec le fond */
+}
+
+/* Espacement autour des éléments de la liste */
+.navbar-nav .nav-item {
+    margin: 0 0.5rem; /* Ajustez cette valeur pour espacer les éléments */
+}
+
+/* Effet dynamique au survol */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Jaune au survol */
+    transform: scale(1.1); /* Agrandit légèrement au survol */
+}
+
+/* Style des boutons */
+.btn-primary-custom {
+    background-color: #0056b3; /* Bleu pour les boutons principaux */
+    border-color: #0056b3;
+    color: #ffd700; /* Jaune pour le texte des boutons */
+}
+
+.btn-primary-custom:hover {
+    background-color: #004494; /* Bleu foncé pour le survol */
+    border-color: #004494;
+}
+
+.btn-secondary-custom {
+    background-color: #ffd700; /* Jaune pour les boutons secondaires */
+    border-color: #ffd700;
+    color: #0056b3; /* Bleu pour le texte des boutons */
+}
+
+.btn-secondary-custom:hover {
+    background-color: #e6c200; /* Jaune foncé pour le survol */
+    border-color: #e6c200;
+    color: #003d7a; /* Bleu très foncé pour le texte au survol */
+}
+
+/* Style des liens dans la navbar */
+.nav-link {
+    color: #fff !important; /* Assure que les liens sont blancs */
+}
+
+/* Section avec photo et texte */
+section {
+    padding: 3rem 0;
+}
+
+/* Cartes des programmes et professeurs */
+/* Couleurs personnalisées */
+.bg-primary-custom {
+    background-color: #0056b3; /* Bleu personnalisé */
+}
+
+.bg-secondary-custom {
+    background-color: #ffd700; /* Jaune personnalisé */
+}
+
+.text-primary-custom {
+    color: #0056b3; /* Bleu personnalisé */
+}
+
+.text-secondary-custom {
+    color: #ffd700; /* Jaune personnalisé */
+}
+
+/* Style du logo et des textes dans la navbar */
+.navbar-brand {
+    color: #ffd700; /* Jaune personnalisé pour le texte du logo */
+}
+
+.navbar-brand img {
+    filter: invert(1) brightness(0.9); /* Ajuste la couleur du logo pour contraster avec le fond */
+}
+
+/* Espacement autour des éléments de la liste */
+.navbar-nav .nav-item {
+    margin: 0 0.5rem; /* Ajustez cette valeur pour espacer les éléments */
+}
+
+/* Effet dynamique au survol */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Jaune au survol */
+    transform: scale(1.1); /* Agrandit légèrement au survol */
+}
+
+/* Style des boutons */
+.btn-primary-custom {
+    background-color: #0056b3; /* Bleu pour les boutons principaux */
+    border-color: #0056b3;
+    color: #ffd700; /* Jaune pour le texte des boutons */
+}
+
+.btn-primary-custom:hover {
+    background-color: #004494; /* Bleu foncé pour le survol */
+    border-color: #004494;
+}
+
+.btn-secondary-custom {
+    background-color: #ffd700; /* Jaune pour les boutons secondaires */
+    border-color: #ffd700;
+    color: #0056b3; /* Bleu pour le texte des boutons */
+}
+
+.btn-secondary-custom:hover {
+    background-color: #e6c200; /* Jaune foncé pour le survol */
+    border-color: #e6c200;
+    color: #003d7a; /* Bleu très foncé pour le texte au survol */
+}
+
+/* Style des liens dans la navbar */
+.nav-link {
+    color: #fff !important; /* Assure que les liens sont blancs */
+}
+
+/* Section avec photo et texte */
+section {
+    padding: 3rem 0;
+}
+
+/* Cartes des programmes et professeurs */
+.prog .card{
+    height:400px ;
+}
+
+.card-img-top {
+    height: 200px; /* Ajuste la hauteur des images */
+    object-fit: cover; /* Assure que l'image couvre la carte sans déformation */
+}
+
+/* Formulaire de Contact */
+form {
+    background-color: #f8f9fa; /* Couleur de fond plus claire pour le formulaire */
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3; /* Bleu pour le pied de page */
+    color: #ffd700; /* Jaune pour le texte du pied de page */
+}
+
+
+/* Formulaire de Contact */
+form {
+    background-color: #f8f9fa; /* Couleur de fond plus claire pour le formulaire */
+}
+
+/* Footer */
+footer {
+    background-color: #0056b3; /* Bleu pour le pied de page */
+    color: #ffd700; /* Jaune pour le texte du pied de page */
+}
+
+
+/*     <!-- Formulaire de Contact -->
+    <section class="container my-5">
+        <h2 class="text-center">Contactez-nous</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="shadow p-4 mx-auto" style="max-width: 600px;">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="shadow p-4 mx-auto" style="max-width: 600px;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246987.81827027188!2d-17.291301104321285!3d14.702146934534662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1723652318869!5m2!1sfr!2ssn" width="470" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                    </div>
+                </div>
+            </div>
+    </section> */
+
+    /* <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sen Education</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .text-primary-custom {
+            color: #0047AB;
+        }
+        .text-secondary-custom {
+            color: #FFD700;
+        }
+        .bg-primary-custom {
+            background-color: #0047AB;
+        }
+        .bg-secondary-custom {
+            background-color: #FFD700;
+        }
+        .icon-box {
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+        }
+        .icon-box i {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .card-custom {
+            border: 1px solid #0047AB;
+            border-radius: 10px;
+        }
+        .card-custom .card-body {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-primary-custom navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Sen Education</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#programs">Programmes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#coaches">Nos Coachs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1 class="text-primary-custom">Bienvenue chez Sen Education</h1>
+            <p>Personnalisez votre parcours éducatif avec des formations de qualité et un accompagnement sur mesure.</p>
+            <a href="#services" class="btn btn-secondary-custom">Découvrez nos services</a>
+        </div>
+        <div class="col-md-6">
+            <img src="https://via.placeholder.com/500x300" alt="Sen Education" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<!-- Présentation du Projet -->
+<section id="about" class="container my-5">
+    <h2 class="text-center text-primary-custom">Présentation du Projet</h2>
+    <p class="text-center mb-4">
+        Sen Education est une entreprise dédiée à la personnalisation de l'éducation et à l'orientation des élèves et étudiants pour les aider à réaliser leur plein potentiel. Nous offrons des cours pratiques, un accompagnement continu, et des ressources éducatives de haute qualité.
+    </p>
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="icon-box">
+                <i class="bi bi-award text-primary-custom"></i>
+                <h4 class="title">Excellence</h4>
+                <p class="description">Nous visons l'excellence dans tout ce que nous faisons, en offrant des services de qualité supérieure.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="icon-box">
+                <i class="bi bi-lightbulb text-primary-custom"></i>
+                <h4 class="title">Innovation</h4>
+                <p class="description">Nous utilisons les technologies les plus récentes pour offrir une éducation moderne et efficace.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="icon-box">
+                <i class="bi bi-handshake text-primary-custom"></i>
+                <h4 class="title">Qualité de service</h4>
+                <p class="description">Nous sommes dévoués à offrir un service client exceptionnel et une expérience utilisateur de premier ordre.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="container my-5">
+    <h2 class="text-center text-primary-custom">Nos Services</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="text-secondary-custom">Évaluation des Pré-requis</h3>
+            <p>Un test initial pour déterminer le niveau de l'apprenant et personnaliser son parcours éducatif.</p>
+        </div>
+        <div class="col-md-6">
+            <h3 class="text-secondary-custom">Modules Interactifs</h3>
+            <p>Des vidéos, des quiz, et des exercices pratiques pour rendre l'apprentissage dynamique et engageant.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="text-secondary-custom">Suivi des Progrès</h3>
+            <p>Un tableau de bord interactif pour visualiser l'avancement de l'apprenant et les résultats obtenus.</p>
+        </div>
+        <div class="col-md-6">
+            <h3 class="text-secondary-custom">Communauté d'Apprentissage</h3>
+            <p>Des forums de discussion et des ateliers en ligne pour interagir avec les formateurs et les autres apprenants.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Programmes -->
+<section id="programs" class="container my-5">
+    <h2 class="text-center text-primary-custom">Nos Programmes</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Programme 1">
+                <div class="card-body">
+                    <h5 class="card-title">Programme A</h5>
+                    <p class="card-text">Un programme complet pour maîtriser les compétences de base dans votre domaine.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Programme 2">
+                <div class="card-body">
+                    <h5 class="card-title">Programme B</h5>
+                    <p class="card-text">Approfondissez vos connaissances avec des modules avancés et spécialisés.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Programme 3">
+                <div class="card-body">
+                    <h5 class="card-title">Programme C</h5>
+                    <p class="card-text">Formations pratiques avec des cas d'étude réels pour une meilleure compréhension.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Programme 4">
+                <div class="card-body">
+                    <h5 class="card-title">Programme D</h5>
+                    <p class="card-text">Cours axés sur la préparation aux examens et la certification professionnelle.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Nos Coachs -->
+<section id="coaches" class="container my-5">
+    <h2 class="text-center text-primary-custom">Nos Coachs</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Coach 1">
+                <div class="card-body">
+                    <h5 class="card-title">Coach 1</h5>
+                    <p class="card-text">Expert en développement personnel avec 10 ans d'expérience dans l'éducation.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Coach 2">
+                <div class="card-body">
+                    <h5 class="card-title">Coach 2</h5>
+                    <p class="card-text">Spécialiste en gestion du temps et optimisation de la productivité.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-custom">
+                <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Coach 3">
+                <div class="card-body">
+                    <h5 class="card-title">Coach 3</h5>
+                    <p class="card-text">Conseiller en orientation avec une expertise dans la préparation aux examens.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Form -->
+<section id="contact" class="container my-5">
+    <h2 class="text-center text-primary-custom">Contactez-nous</h2>
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary-custom w-100">Envoyer</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-primary-custom text-white text-center py-3">
+    <p>&copy; 2024 Sen Education. Tous droits réservés.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ */

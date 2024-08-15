@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sen Education - Plateforme d'apprentissage</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -148,40 +150,42 @@
         </div>
     </section>
 
-    <!-- Formulaire de Contact -->
-    <section class="container my-5" id="Contact">
-        <h2 class="text-center">Contactez-nous</h2>
-            <div class="row">
-                <div class="col-md-6  col-sm-12">
-                    <form class="shadow p-4 mx-auto" style="max-width: 600px;">
-                        <div class="mb-3">
-                            <label for="nom" class="form-label">Nom</label>
-                            <input type="text" class="form-control" id="nom" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="4" required></textarea>
-                        </div>
-                            <button type="submit" class="btn btn-primary-custom w-100">Envoyer</button>
-
-                        <!-- <button type="submit" class="btn btn-primary w-100">Envoyer</button> -->
-                    </form>
+<!-- Formulaire de Contact -->
+<section class="container my-1" id="Contact">
+    <h2 class="text-center">Contactez-nous</h2>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 mb-4 mb-md-0">
+            <form class="shadow p-4 mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="nom" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="nom" required>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="shadow p-4 mx-auto" style="max-width: 600px;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246987.81827027188!2d-17.291301104321285!3d14.702146934534662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1723652318869!5m2!1sfr!2ssn" width="470" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        
-                    </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
                 </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary-custom w-100">Envoyer</button>
+            </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="shadow mx-auto" style="max-width: 100%; height: 100%; overflow: hidden;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d246987.81827027188!2d-17.291301104321285!3d14.702146934534662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2ssn!4v1723652318869!5m2!1sfr!2ssn" 
+                    height="360" 
+                    style="border:0; width: 100%;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
-    </section> 
-    
+        </div>
+    </div>
+</section>
 
-    <!-- Footer -->
      <!-- Footer -->
 <footer class="bg-primary-custom text-light py-5">
     <div class="container">
@@ -190,9 +194,9 @@
             <div class="col-md-3 mb-4">
                 <h5 class="text-secondary-custom">Contact</h5>
                 <ul class="list-unstyled">
-                    <li><i class="bi bi-telephone-fill"></i> +221 33 123 45 67</li>
-                    <li><i class="bi bi-envelope-fill"></i> contact@seneducation.com</li>
-                    <li><i class="bi bi-geo-alt-fill"></i> Dakar, Sénégal</li>
+                    <li><i class="fa-solid fa-phone"></i> +221 33 123 45 67</li>
+                    <li><i class="fa-solid fa-envelope"></i></i> contact@seneducation.com</li>
+                    <li><i class="fa-solid fa-location-dot"></i> Dakar, Sénégal</li>
                 </ul>
             </div>
             <!-- Deuxième colonne : Programmes -->

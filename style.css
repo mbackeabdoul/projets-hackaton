@@ -183,6 +183,17 @@ footer {
 }
 
 
+@media (max-width: 767.98px) {
+    .card-form  {
+        padding: 15px;
+    }
+
+    .btn-primary-custom {
+        font-size: 0.875rem;
+    }
+}
+
+
 /*     <!-- Formulaire de Contact -->
     <section class="container my-5">
         <h2 class="text-center">Contactez-nous</h2>

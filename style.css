@@ -343,3 +343,13 @@ footer h5:hover {
     height: 100%;
 }
 
+
+@media (max-width: 767px) {
+    #nosCoach .row {
+        gap: 20px; /* Ajustez selon l'espacement désiré */
+    }
+    
+    #nosCoach .card {
+        height: 100%; /* Assurez-vous que toutes les cartes prennent toute la hauteur disponible */
+    }
+}

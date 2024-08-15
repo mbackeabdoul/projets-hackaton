@@ -14,10 +14,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-primary-custom">
         <div class="container-fluid">
-            <a class="navbar-brand text-secondary-custom" href="#">
-                <img src="./images/LOO.png" alt="Logo" width="100" height="50" class="d-inline-block align-text-tops ">
+            <!-- <a class="navbar-brand text-secondary-custom" href="#"> -->
+                <img src="./images/LOO copie.png" alt="Logo" width="100" height="50" class="d-inline-block align-text-tops">
               
-            </a>
+            <!-- </a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,8 +26,23 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#Accueil">Accueil</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Programmes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#programmes">Tous les Programmes</a></li>
+                            <li><a class="dropdown-item" href="#developpement-web">Développement Web</a></li>
+                            <li><a class="dropdown-item" href="#marketing-digital">Marketing Digital</a></li>
+                            <li><a class="dropdown-item" href="#gestion-projets">Gestion de Projet</a></li>
+                            <li><a class="dropdown-item" href="#informatique-reseaux">Informatique et Réseaux</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#programmes">Programmes</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offre-marche">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#nosCoach">Nos Coach</a>
@@ -43,112 +58,200 @@
         </div>
     </nav>
 
-    <!-- Section avec photo et texte -->
-    <section class="container my-5" id="Accueil">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="./images/ceremonie-remise-diplomes-virtuelle-ordinateur_23-2148576401.jpg" class="img-fluid" alt="Photo illustrative">
-            </div>
-            <div class="col-md-6">
-                <h2 class="text-primary-custom">Bienvenue sur Sen Education</h2>
-                <p>Sen Education est une entreprise spécialisée dans la personnalisation de l’éducation et l’orientation de l'élève ou de l’étudiant dans son domaine spécifique. Nous aidons chaque personne à réaliser son potentiel grâce à des cours et des formations pratiques continues de qualité.</p>
-                <p>Notre mission consiste à accompagner les élèves et les étudiants en leur offrant des conseils personnalisés, des ressources de qualité et des formations adaptées à leurs besoins. Pour les professionnels, Sen Education propose des formations visant à renforcer leurs compétences et à les aider à atteindre leurs objectifs de carrière.</p>
-                <a href="#" class="btn btn-primary-custom">En savoir plus</a>
-            </div>
+<!-- Section avec photo et texte -->
+<section class="container my-5" id="Accueil">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="./images/ceremonie-remise-diplomes-virtuelle-ordinateur_23-2148576401.jpg" class="img-fluid rounded shadow" alt="Photo illustrative">
         </div>
-    </section>
+        <div class="col-md-6">
+            <h2 class="text-primary-custom mb-3">Bienvenue chez Sen Education</h2>
+            <p class="mb-4">Chez Sen Education, nous personnalisons l'éducation pour chaque étudiant, en offrant des formations adaptées à leurs besoins. Nous nous engageons à aider chaque individu à atteindre son potentiel avec des cours pratiques de haute qualité.</p>
+            <p class="mb-4">Nous proposons des conseils personnalisés et des ressources pour les élèves, ainsi que des formations professionnelles pour développer les compétences nécessaires à une carrière réussie.</p>
+            <a href="#" class="btn btn-primary-custom">Découvrir nos services</a>
+        </div>
+    </div>
+</section>
 
-    <!-- Section Programme -->
-    <section class="container my-5 prog" id="programmes">
-        <h2 class="text-center text-primary-custom">Nos Programmes</h2>
-        <p class="text-center mb-4">Choisissez parmi une variété de programmes adaptés à vos besoins professionnels et personnels.</p>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/400x250/ffd700/000000" class="card-img-top" alt="Programme 1">
-                    <div class="card-body my-3">
-                        <h5 class="card-title text-primary-custom">Développement Web</h5>
-                        <p class="card-text">Apprenez à créer des sites web modernes et réactifs en utilisant les dernières technologies telles que HTML, CSS, JavaScript, et plus encore.</p>
-                        <a href="#" class="btn btn-primary-custom">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/400x250/0056b3/ffffff" class="card-img-top" alt="Programme 2">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Marketing Digital</h5>
-                        <p class="card-text">Découvrez les stratégies de marketing digital pour promouvoir votre entreprise en ligne et atteindre un public plus large.</p>
-                        <a href="#" class="btn btn-primary-custom">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/400x250/ffd700/000000" class="card-img-top" alt="Programme 3">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Gestion de Projet</h5>
-                        <p class="card-text fs-6">Maîtrisez les compétences nécessaires pour diriger des projets avec succès, de la planification à l'exécution. </p>
-                        <a href="#" class="btn btn-primary-custom">En savoir plus</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/400x250/0056b3/ffffff" class="card-img-top" alt="Programme 4">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Informatique et Réseaux</h5>
-                        <p class="card-text">Formez-vous aux concepts essentiels de l'informatique et des réseaux pour construire et gérer des systèmes complexes.</p>
-                        <a href="#" class="btn btn-primary-custom">En savoir plus</a>
-                    </div>
+ <!-- Section Programme -->
+ <section class="container my-5" id="programmes">
+    <h2 class="text-center text-primary-custom text-bold">Nos Programmes</h2>
+    <p class="text-center mb-4">Choisissez parmi une variété de programmes adaptés à vos besoins professionnels et personnels.</p>
+    <div class="row">
+        <!-- Programme 1: Développement Web -->
+        <div class="col-md-3">
+            <div class="card my-3 shadow" id="developpement-web">
+                <img src="./images/programmation (2).jpg" class="card-img-top" alt="Développement Web">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Développement Web</h5>
+                    <p class="card-text">Apprenez à créer des sites web modernes et réactifs en utilisant les dernières technologies.</p>
+                    <a href="#developpement-web" class="btn btn-primary-custom">En savoir plus</a>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- Programme 2: Marketing Digital -->
+        <div class="col-md-3">
+            <div class="card my-3 shadow" id="marketing-digital">
+                <img src="/images/marketing (1).jpg" class="card-img-top" alt="Marketing Digital">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Marketing Digital</h5>
+                    <p class="card-text">Découvrez les stratégies pour promouvoir votre entreprise en ligne et atteindre un public plus large.</p>
+                    <a href="#marketing-digital" class="btn btn-primary-custom">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <!-- Programme 3: Gestion de Projet -->
+        <div class="col-md-3">
+            <div class="card my-3 shadow" id="gestion-projets">
+                <img src="./images/gestion (4).jpg" class="card-img-top" alt="Gestion de Projet">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Gestion de Projet</h5>
+                    <p class="card-text">Maîtrisez les compétences nécessaires pour diriger des projets avec succès.</p><br>
+                    <a href="#gestion-projets" class="btn btn-primary-custom">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+        <!-- Programme 4: Informatique et Réseaux -->
+        <div class="col-md-3">
+            <div class="card my-3 shadow" id="informatique-reseaux">
+                <img src="./images/reseaux one (3).jpg" class="card-img-top" alt="Informatique et Réseaux">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Informatique et Réseaux</h5>
+                    <p class="card-text">Formez-vous aux concepts essentiels de l'informatique et des réseaux.</p><br>
+                    <a href="#informatique-reseaux" class="btn btn-primary-custom">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <!-- Section Nos Coach -->
-    <section class="container my-5 " id="nosCoach">
-        <h2 class="text-center text-primary-custom">Nos Coach</h2>
-        <p class="text-center mb-4">Rencontrez nos experts, passionnés par l'enseignement et désireux de partager leurs connaissances avec vous.</p>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/200x200/0056b3/ffffff" class="card-img-top" alt="Prof 1">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Marie Dupont</h5>
-                        <p class="card-text">Spécialiste en Développement Web avec 10 ans d'expérience dans l'industrie.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/200x200/ffd700/000000" class="card-img-top" alt="Prof 2">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Jean Martin</h5>
-                        <p class="card-text">Expert en Marketing Digital, ayant travaillé avec des entreprises de renom.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/200x200/0056b3/ffffff" class="card-img-top" alt="Prof 3">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Sophie Bernard</h5>
-                        <p class="card-text">Consultante en Gestion de Projet, avec des certifications internationales.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="card my-3">
-                    <img src="https://via.placeholder.com/200x200/ffd700/000000" class="card-img-top" alt="Prof 4">
-                    <div class="card-body">
-                        <h5 class="card-title text-primary-custom">Pierre Durand</h5>
-                        <p class="card-text">Ingénieur en Réseaux, passionné par les nouvelles technologies et l'innovation.</p>
-                    </div>
+
+        <!-- Section Offre du Marché -->
+<section id="offre-marche" class="container py-5">
+    <h2 class="text-primary-custom text-center mb-4">Offres et Services</h2>
+    <div class="row">
+        <!-- Évaluation des prérequis -->
+        <div class="col-md-6 mb-4">
+            <div class="offre-marche-card">
+                <img src="https://via.placeholder.com/500x300?text=Évaluation+des+prérequis" class="card-img-top" alt="Évaluation des prérequis">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fas fa-check-circle me-2"></i>Évaluation des prérequis</h3>
+                    <p>Un test initial pour déterminer le niveau de l'apprenant et personnaliser le parcours.</p>
                 </div>
             </div>
         </div>
-    </section>
+
+        <!-- Modules interactifs -->
+        <div class="col-md-6 mb-4">
+            <div class="offre-marche-card">
+                <img src="https://via.placeholder.com/500x300?text=Modules+interactifs" class="card-img-top" alt="Modules interactifs">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fas fa-laptop-code me-2"></i>Modules interactifs</h3>
+                    <p>Des vidéos, des quiz, des exercices pratiques pour rendre l'apprentissage dynamique et efficace.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Suivi des progrès -->
+        <div class="col-md-6 mb-4">
+            <div class="offre-marche-card">
+                <img src="https://via.placeholder.com/500x300?text=Suivi+des+progrès" class="card-img-top" alt="Suivi des progrès">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fas fa-chart-line me-2"></i>Suivi des progrès</h3>
+                    <p>Un tableau de bord pour visualiser l'avancement et les résultats obtenus.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Communauté d'apprentissage -->
+        <div class="col-md-6 mb-4">
+            <div class="offre-marche-card">
+                <img src="https://via.placeholder.com/500x300?text=Communauté+d'apprentissage" class="card-img-top" alt="Communauté d'apprentissage">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fas fa-users me-2"></i>Communauté d'apprentissage</h3>
+                    <ul>
+                        <li>Forums de discussion: Un espace pour poser des questions, échanger avec les autres apprenants et les formateurs.</li>
+                        <li>Ateliers en ligne: Des sessions en direct pour interagir avec les formateurs et les autres participants.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ressources pédagogiques -->
+        <div class="col-md-6 mb-4">
+            <div class="offre-marche-card">
+                <img src="https://via.placeholder.com/500x300?text=Ressources+pédagogiques" class="card-img-top" alt="Ressources pédagogiques">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fas fa-book me-2"></i>Ressources pédagogiques</h3>
+                    <ul>
+                        <li>Bibliothèque numérique: Un accès à une vaste bibliothèque de ressources (articles, livres, vidéos) en lien avec les formations.</li>
+                        <li>Outils collaboratifs: Des outils pour travailler en groupe et réaliser des projets en ligne.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="col-md-6 mb-4">
+            <div class="offre-marche-card">
+                <img src="https://via.placeholder.com/500x300?text=Certifications" class="card-img-top" alt="Certifications">
+                <div class="card-body">
+                    <h3 class="card-title"><i class="fas fa-certificate me-2"></i>Certifications</h3>
+                    <p>Attestations de réussite: Des certificats personnalisés à la fin de chaque formation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Nos Coachs -->
+<section class="container my-5" id="nosCoach">
+    <h2 class="text-center text-primary-custom mb-4">Nos Coachs</h2>
+    <p class="text-center mb-4">Découvrez nos experts passionnés, prêts à partager leur savoir-faire et leurs expériences avec vous.</p>
+    <div class="row">
+        <!-- Coach 1 -->
+        <div class="col-md-3">
+            <div class="card my-3 hover-card">
+                <img src="./images/developpeur-logiciels.jpg" class="card-img-top" alt="Kalika">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Coach Kalika</h5>
+                    <p class="card-text">Spécialiste en Développement Web avec plus de 10 ans d'expérience dans l'industrie.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Coach 2 -->
+        <div class="col-md-3">
+            <div class="card my-3 hover-card">
+                <img src="./images/gestionnaire-femme-africaine.avif" class="card-img-top" alt="Salimata Seck">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Salimata Seck</h5>
+                    <p class="card-text">Expert en Marketing Digital, ayant collaboré avec des entreprises de renom.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Coach 3 -->
+        <div class="col-md-3">
+            <div class="card my-3 hover-card">
+                <img src="./images/elegant-jeune-homme.avif" class="card-img-top" alt="Coach Ousseynou">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Oussseynou Gueye</h5>
+                    <p class="card-text">Consultante en Gestion de Projet, avec des certifications internationales.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Coach 4 -->
+        <div class="col-md-3">
+            <div class="card my-3 hover-card">
+                <img src="./images/dieynaba.avif" class="card-img-top" alt="Dieynaba Ly">
+                <div class="card-body">
+                    <h5 class="card-title text-primary-custom">Dieynaba Ly</h5>
+                    <p class="card-text">Ingénieure en Réseaux, passionné par les nouvelles technologies et l'innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- Formulaire de Contact -->
 <section class="container my-1" id="Contact">
@@ -186,7 +289,10 @@
     </div>
 </section>
 
-     <!-- Footer -->
+            
+        
+<!-- Footer -->
+<!-- Footer -->
 <footer class="bg-primary-custom text-light py-5">
     <div class="container">
         <div class="row text-center text-md-start">
@@ -194,29 +300,38 @@
             <div class="col-md-3 mb-4">
                 <h5 class="text-secondary-custom">Contact</h5>
                 <ul class="list-unstyled">
-                    <li><i class="fa-solid fa-phone"></i> +221 33 123 45 67</li>
-                    <li><i class="fa-solid fa-envelope"></i></i> contact@seneducation.com</li>
-                    <li><i class="fa-solid fa-location-dot"></i> Dakar, Sénégal</li>
+                    <li class="footer-item"><i class="fa-solid fa-phone"></i> +221 33 123 45 67</li>
+                    <li class="footer-item"><i class="fa-solid fa-envelope"></i> contact@seneducation.com</li>
+                    <li class="footer-item"><i class="fa-solid fa-location-dot"></i> Dakar, Sénégal</li>
                 </ul>
+                <!-- Réseaux sociaux -->
+                <div class="mt-3">
+                    <h5 class="text-secondary-custom">Suivez-nous</h5>
+                    <div>
+                        <a href="#" class="text-light footer-item me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light footer-item me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-light footer-item me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-light footer-item"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
             </div>
             <!-- Deuxième colonne : Programmes -->
             <div class="col-md-3 mb-4">
                 <h5 class="text-secondary-custom">Programmes</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light">Développement Web</a></li>
-                    <li><a href="#" class="text-light">Marketing Digital</a></li>
-                    <li><a href="#" class="text-light">Gestion de Projet</a></li>
-                    <li><a href="#" class="text-light">Informatique et Réseaux</a></li>
+                    <li class="footer-item">Développement Web</li>
+                    <li class="footer-item">Marketing Digital</li>
+                    <li class="footer-item">Gestion de Projet</li>
+                    <li class="footer-item">Informatique et Réseaux</li>
                 </ul>
             </div>
-            <!-- Troisième colonne : Liens Utiles -->
+            <!-- Troisième colonne : Horaires -->
             <div class="col-md-3 mb-4">
-                <h5 class="text-secondary-custom">Liens Utiles</h5>
+                <h5 class="text-secondary-custom">Horaires</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light">Accueil</a></li>
-                    <li><a href="#" class="text-light">À propos</a></li>
-                    <li><a href="#" class="text-light">Nos Coachs</a></li>
-                    <li><a href="#" class="text-light">Contacts</a></li>
+                    <li class="footer-item">Lundi - Vendredi : 8h - 18h</li>
+                    <li class="footer-item">Samedi : 9h - 14h</li>
+                    <li class="footer-item">Dimanche : Fermé</li>
                 </ul>
             </div>
             <!-- Quatrième colonne : Newsletter -->
@@ -236,6 +351,8 @@
         </div>
     </div>
 </footer>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
